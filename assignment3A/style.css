@@ -1,0 +1,105 @@
+body {font-family: "Helvetica";
+    font-size: 18px}
+    header {background-color: #5454B2;
+    color: white;} 
+    h1 {font-family: "Impact";
+    letter-spacing: 5px;
+    margin-bottom: 0px;}
+    h2 {background-color: #18183C;
+    margin-left: 5px;
+    }
+    h4 {
+         margin-top: 0px;}
+    
+    
+    main {
+        background-color: #51505C;
+    color: white;}
+   
+    footer {background-color: #8080FF;
+    font-size: xx-small;
+    text-align: center;}
+    
+    div.box {text-align: center;}
+    .hnmf {margin: 5px 5px 5px 5px;}
+    
+    .media-list {
+        display: grid;
+        background-color: #18183C;
+        color: white;
+        text-align: center;
+
+    }
+    .media-list .card {
+        background-color: #51505C;
+        border-radius: 12px;
+        padding: 2em;
+        text-align: center;
+        
+    
+    }
+    .card .title {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .card .text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .card img{
+        max-width: 25%;
+
+    }
+
+    .listen-button{
+        background-color: white;
+        padding: 1em;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+
+    .listen-button:hover{
+        background-color: #5454B2;
+        padding: 1em;
+        border-radius: 10px;
+        color: white;
+        
+    }
+
+    .music-container{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+
+    .contact-box{
+        width: 600px;
+        background-color:#18183C;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 0 0 20px 0 #51505C;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        font-size: 25px;
+    
+    }
+
+    form{
+        margin: 35px;
+    }
+
+    .input-field{
+        width: 500px;
+        height: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        border: 1px Solid white;
+        border-radius: 10px;
+
+    }
